@@ -391,6 +391,11 @@ export interface RequiredOptions extends doc.printer.Options {
    */
   arrowParens: "avoid" | "always";
   /**
+   * Insert empty line at the beginning of class declarations.
+   * @default true
+   */
+  emptyFirstLineInClassDecl: boolean;
+  /**
    * Provide ability to support new languages to prettier.
    */
   plugins: Array<string | Plugin>;

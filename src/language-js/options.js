@@ -20,6 +20,11 @@ const options = {
       },
     ],
   },
+  emptyFirstLineInClassDecl: {
+    category: CATEGORY_JAVASCRIPT,
+    type: "boolean",
+    description: "Insert empty line at the beginning of class declarations.",
+  },
   bracketSameLine: commonOptions.bracketSameLine,
   bracketSpacing: commonOptions.bracketSpacing,
   jsxBracketSameLine: {

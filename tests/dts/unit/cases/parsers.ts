@@ -23,6 +23,7 @@ const options: prettier.ParserOptions = {
   singleAttributePerLine: false,
   vueIndentScriptAndStyle: false,
   arrowParens: "always",
+  emptyFirstLineInClass: true,
   semi: true,
   experimentalTernaries: false,
   jsxSingleQuote: false,

@@ -261,6 +261,10 @@ function printClassBody(path, options, print) {
   const { node } = path;
   const parts = [];
 
+  if (options.emptyFirstLineInClassDecl) {
+    parts.push(hardline);
+  }
+
   path.each(({ node, next, isLast }) => {
     parts.push(print());
 
